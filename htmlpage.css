@@ -8,16 +8,16 @@ body
 
 .wrapper 
 {
-    /*font-family: "Times New Roman"; */
+    font-family: "Verdana"; 
     width: 800px;
     margin: 0 auto;
     background-color: #FFF;
-    min-height: 700px;
+    min-height: 500px;
 }
 
 .content 
 {
-    min-height: 700px;
+    min-height: 500px;
     padding: 0px;
     color: #666;
 }
@@ -29,16 +29,17 @@ body
     position: relative;
     margin: 0;
     padding: 0;
+    height: 60px;
 }
 
 .nav 
 {
     position: absolute;
-    top: 90px; 
+    top: 70px; 
     /*left: 400px;  */
     background-color: #CCC;
     width: 800px;
-    height: 30px;
+    height: 40px;
 
 }
 
@@ -62,7 +63,7 @@ body
 
 .nav li a:link, a:visited 
 {
-    color: #f90;
+    color: #000;
 }
 
 .nav a:hover 
@@ -133,5 +134,5 @@ body
 .footer 
 {
     background-color: #777;
-    min-height: 200px;
+    min-height: 50px;
 }
